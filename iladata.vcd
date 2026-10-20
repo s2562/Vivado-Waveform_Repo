@@ -1,0 +1,253 @@
+$date
+        2026-Oct-20 15:23:28
+$end
+$version
+        Vivado v2024.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WREADY $end
+$var reg 9 # u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWADDR [8:0] $end
+$var reg 2 , u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_BRESP [1:0] $end
+$var reg 1 . u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_BVALID $end
+$var reg 1 / u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_BREADY $end
+$var reg 9 0 u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARADDR [8:0] $end
+$var reg 1 9 u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RREADY $end
+$var reg 1 : u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WVALID $end
+$var reg 1 ; u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARVALID $end
+$var reg 1 < u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARREADY $end
+$var reg 32 = u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RDATA [31:0] $end
+$var reg 1 ] u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWVALID $end
+$var reg 1 ^ u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWREADY $end
+$var reg 2 _ u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RRESP [1:0] $end
+$var reg 32 a u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WDATA [31:0] $end
+$var reg 4 #" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WSTRB [3:0] $end
+$var reg 1 '" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RVALID $end
+$var reg 3 (" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARPROT [2:0] $end
+$var reg 3 +" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWPROT [2:0] $end
+$var reg 1 ." _TRIGGER $end
+$var reg 1 /" _WINDOW $end
+$var reg 1 0" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+b0 #
+b0 ,
+0.
+1/
+b0 0
+19
+0:
+0;
+0<
+b0 =
+0]
+0^
+b0 _
+b0 a
+b0 #"
+0'"
+b0 ("
+b0 +"
+1."
+1/"
+00"
+$end
+#1
+b1000000 #
+1:
+1]
+b1010 a
+b1111 #"
+b1 +"
+#4
+1"
+1^
+#5
+0"
+1.
+0:
+0]
+0^
+#6
+b100000000 #
+0.
+1:
+1]
+b0 a
+#9
+1"
+1^
+#10
+0"
+1.
+0:
+0]
+0^
+#11
+b100010000 #
+0.
+1:
+1]
+b10101010 a
+#14
+1"
+1^
+#15
+0"
+1.
+0:
+0]
+0^
+#16
+b100100000 #
+0.
+1:
+1]
+b1111 a
+#19
+1"
+1^
+#20
+0"
+1.
+0:
+0]
+0^
+#21
+b100000000 #
+0.
+1:
+1]
+b1 a
+#24
+1"
+1^
+#25
+0"
+1.
+0:
+0]
+0^
+#26
+0.
+b100000000 0
+1;
+b1 ("
+#29
+1<
+b1 =
+#30
+0;
+0<
+1'"
+#31
+b100010000 0
+1;
+0'"
+#33
+b0 =
+#34
+1<
+b10101010 =
+#35
+0;
+0<
+1'"
+#36
+b100000100 0
+1;
+0'"
+#38
+b0 =
+#39
+1<
+b11000000 =
+#40
+0;
+0<
+1'"
+#41
+b100000 0
+1;
+0'"
+#43
+b0 =
+#44
+1<
+b11010000 =
+#45
+0;
+0<
+1'"
+#46
+b100000 #
+1:
+1]
+b11010000 a
+0'"
+#49
+1"
+1^
+#50
+0"
+1.
+0:
+0]
+0^
+#51
+0.
+b100000100 0
+1;
+#53
+b0 =
+#54
+1<
+b10000000 =
+#55
+0;
+0<
+1'"
+#56
+b100000 0
+1;
+0'"
+#58
+b0 =
+#59
+1<
+b11110000 =
+#60
+0;
+0<
+1'"
+#61
+b100000100 0
+1;
+0'"
+#63
+b0 =
+#64
+1<
+b10000000 =
+#65
+0;
+0<
+1'"
+#66
+b100001100 0
+1;
+0'"
+#68
+b0 =
+#69
+1<
+b111100 =
+#70
+0;
+0<
+1'"
