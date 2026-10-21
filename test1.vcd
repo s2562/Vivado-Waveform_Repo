@@ -8,55 +8,55 @@ $timescale
         1ps
 $end
 $scope module dut $end
-$var reg 1 " u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WREADY $end
-$var reg 40 # u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWADDR [39:0] $end
-$var reg 2 K u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BRESP [1:0] $end
-$var reg 1 M u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BVALID $end
-$var reg 1 N u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BREADY $end
-$var reg 40 O u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARADDR [39:0] $end
-$var reg 1 w u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RREADY $end
-$var reg 1 x u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WVALID $end
-$var reg 1 y u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARVALID $end
-$var reg 1 z u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARREADY $end
-$var reg 128 { u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RDATA [127:0] $end
-$var reg 1 ?# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWVALID $end
-$var reg 1 @# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWREADY $end
-$var reg 2 A# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RRESP [1:0] $end
-$var reg 128 C# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WDATA [127:0] $end
-$var reg 16 e$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WSTRB [15:0] $end
-$var reg 1 u$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RVALID $end
-$var reg 3 v$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARPROT [2:0] $end
-$var reg 3 y$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWPROT [2:0] $end
-$var reg 16 |$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWID [15:0] $end
-$var reg 16 .% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BID [15:0] $end
-$var reg 8 >% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWLEN [7:0] $end
+$var reg 1 " M_AXI_HPM0_FPD_WREADY $end
+$var reg 40 # M_AXI_HPM0_FPD_AWADDR [39:0] $end
+$var reg 2 K M_AXI_HPM0_FPD_BRESP [1:0] $end
+$var reg 1 M M_AXI_HPM0_FPD_BVALID $end
+$var reg 1 N M_AXI_HPM0_FPD_BREADY $end
+$var reg 40 O M_AXI_HPM0_FPD_ARADDR [39:0] $end
+$var reg 1 w M_AXI_HPM0_FPD_RREADY $end
+$var reg 1 x M_AXI_HPM0_FPD_WVALID $end
+$var reg 1 y M_AXI_HPM0_FPD_ARVALID $end
+$var reg 1 z M_AXI_HPM0_FPD_ARREADY $end
+$var reg 128 { M_AXI_HPM0_FPD_RDATA [127:0] $end
+$var reg 1 ?# M_AXI_HPM0_FPD_AWVALID $end
+$var reg 1 @# M_AXI_HPM0_FPD_AWREADY $end
+$var reg 2 A# M_AXI_HPM0_FPD_RRESP [1:0] $end
+$var reg 128 C# M_AXI_HPM0_FPD_WDATA [127:0] $end
+$var reg 16 e$ M_AXI_HPM0_FPD_WSTRB [15:0] $end
+$var reg 1 u$ M_AXI_HPM0_FPD_RVALID $end
+$var reg 3 v$ M_AXI_HPM0_FPD_ARPROT [2:0] $end
+$var reg 3 y$ M_AXI_HPM0_FPD_AWPROT [2:0] $end
+$var reg 16 |$ M_AXI_HPM0_FPD_AWID [15:0] $end
+$var reg 16 .% M_AXI_HPM0_FPD_BID [15:0] $end
+$var reg 8 >% M_AXI_HPM0_FPD_AWLEN [7:0] $end
 $var reg 1 F% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_1 $end
-$var reg 3 G% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWSIZE [2:0] $end
-$var reg 2 J% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWBURST [1:0] $end
-$var reg 16 L% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARID [15:0] $end
-$var reg 1 \% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWLOCK $end
-$var reg 8 ]% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARLEN [7:0] $end
-$var reg 3 e% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARSIZE [2:0] $end
-$var reg 2 h% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARBURST [1:0] $end
-$var reg 1 j% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARLOCK $end
-$var reg 4 k% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARCACHE [3:0] $end
-$var reg 4 o% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWCACHE [3:0] $end
+$var reg 3 G% M_AXI_HPM0_FPD_AWSIZE [2:0] $end
+$var reg 2 J% M_AXI_HPM0_FPD_AWBURST [1:0] $end
+$var reg 16 L% M_AXI_HPM0_FPD_ARID [15:0] $end
+$var reg 1 \% M_AXI_HPM0_FPD_AWLOCK $end
+$var reg 8 ]% M_AXI_HPM0_FPD_ARLEN [7:0] $end
+$var reg 3 e% M_AXI_HPM0_FPD_ARSIZE [2:0] $end
+$var reg 2 h% M_AXI_HPM0_FPD_ARBURST [1:0] $end
+$var reg 1 j% M_AXI_HPM0_FPD_ARLOCK $end
+$var reg 4 k% M_AXI_HPM0_FPD_ARCACHE [3:0] $end
+$var reg 4 o% M_AXI_HPM0_FPD_AWCACHE [3:0] $end
 $var reg 1 s% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_2 $end
 $var reg 1 t% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_3 $end
 $var reg 1 u% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_4 $end
 $var reg 1 v% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_5 $end
-$var reg 4 w% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARQOS [3:0] $end
-$var reg 16 {% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARUSER [15:0] $end
+$var reg 4 w% M_AXI_HPM0_FPD_ARQOS [3:0] $end
+$var reg 16 {% M_AXI_HPM0_FPD_ARUSER [15:0] $end
 $var reg 1 -& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_6 $end
 $var reg 1 .& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_7 $end
 $var reg 1 /& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_8 $end
 $var reg 1 0& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_9 $end
-$var reg 4 1& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWQOS [3:0] $end
-$var reg 16 5& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RID [15:0] $end
-$var reg 16 E& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWUSER [15:0] $end
-$var reg 1 U& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RLAST $end
+$var reg 4 1& M_AXI_HPM0_FPD_AWQOS [3:0] $end
+$var reg 16 5& M_AXI_HPM0_FPD_RID [15:0] $end
+$var reg 16 E& M_AXI_HPM0_FPD_AWUSER [15:0] $end
+$var reg 1 U& M_AXI_HPM0_FPD_RLAST $end
 $var reg 1 V& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_10 $end
-$var reg 1 W& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WLAST $end
+$var reg 1 W& M_AXI_HPM0_FPD_WLAST $end
 $var reg 1 X& u_zcu102_ext_wrapper/zcu102_ext_i/<const0> $end
 $var reg 1 Y& _TRIGGER $end
 $var reg 1 Z& _WINDOW $end
