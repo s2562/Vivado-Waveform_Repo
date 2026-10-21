@@ -8,18 +8,16 @@ $timescale
         1ps
 $end
 $scope module dut $end
-$var reg 1 " u_zcu102_ext_wrapper/zcu102_ext_i/clk_wiz_0_clk_out1 $end
-$var reg 1 # u_zcu102_ext_wrapper/IIC_0_0_scl_i $end
-$var reg 1 $ u_zcu102_ext_wrapper/IIC_0_0_scl_o $end
-$var reg 1 % u_zcu102_ext_wrapper/IIC_0_0_scl_t $end
-$var reg 1 & u_zcu102_ext_wrapper/IIC_0_0_sda_i $end
-$var reg 1 ' u_zcu102_ext_wrapper/IIC_0_0_sda_o $end
-$var reg 1 ( u_zcu102_ext_wrapper/IIC_0_0_sda_t $end
-$var reg 1 ) u_zcu102_ext_wrapper/IIC_0_scl_i $end
-$var reg 1 * u_zcu102_ext_wrapper/IIC_0_scl_t $end
-$var reg 1 + u_zcu102_ext_wrapper/IIC_0_sda_i $end
-$var reg 1 , u_zcu102_ext_wrapper/IIC_0_sda_t $end
-$var reg 1 - u_zcu102_ext_wrapper/zcu102_ext_i/rst_ps8_0_99M_peripheral_aresetn $end
+$var reg 1 # ps_scl_i $end
+$var reg 1 $ ps_scl_o $end
+$var reg 1 % ps_scl_t $end
+$var reg 1 & ps_sda_i $end
+$var reg 1 ' ps_sda_o $end
+$var reg 1 ( ps_sda_t $end
+$var reg 1 ) pl_scl_i $end
+$var reg 1 * pl_scl_t $end
+$var reg 1 + pl_sda_i $end
+$var reg 1 , pl_sda_t $end
 $var reg 1 . _TRIGGER $end
 $var reg 1 / _WINDOW $end
 $var reg 1 0 _GAP $end
