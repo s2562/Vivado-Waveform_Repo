@@ -8,25 +8,25 @@ $timescale
         1ps
 $end
 $scope module dut $end
-$var reg 1 " u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WREADY $end
-$var reg 9 # u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWADDR [8:0] $end
-$var reg 2 , u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_BRESP [1:0] $end
-$var reg 1 . u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_BVALID $end
-$var reg 1 / u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_BREADY $end
-$var reg 9 0 u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARADDR [8:0] $end
-$var reg 1 9 u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RREADY $end
-$var reg 1 : u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WVALID $end
-$var reg 1 ; u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARVALID $end
-$var reg 1 < u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARREADY $end
-$var reg 32 = u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RDATA [31:0] $end
-$var reg 1 ] u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWVALID $end
-$var reg 1 ^ u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWREADY $end
-$var reg 2 _ u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RRESP [1:0] $end
-$var reg 32 a u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WDATA [31:0] $end
-$var reg 4 #" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_WSTRB [3:0] $end
-$var reg 1 '" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_RVALID $end
-$var reg 3 (" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_ARPROT [2:0] $end
-$var reg 3 +" u_zcu102_ext_wrapper/zcu102_ext_i/smartconnect_0_M00_AXI_AWPROT [2:0] $end
+$var reg 1 " M00_AXI_WREADY $end
+$var reg 9 # M00_AXI_AWADDR [8:0] $end
+$var reg 2 , M00_AXI_BRESP [1:0] $end
+$var reg 1 . M00_AXI_BVALID $end
+$var reg 1 / M00_AXI_BREADY $end
+$var reg 9 0 M00_AXI_ARADDR [8:0] $end
+$var reg 1 9 M00_AXI_RREADY $end
+$var reg 1 : M00_AXI_WVALID $end
+$var reg 1 ; M00_AXI_ARVALID $end
+$var reg 1 < M00_AXI_ARREADY $end
+$var reg 32 = M00_AXI_RDATA [31:0] $end
+$var reg 1 ] M00_AXI_AWVALID $end
+$var reg 1 ^ M00_AXI_AWREADY $end
+$var reg 2 _ M00_AXI_RRESP [1:0] $end
+$var reg 32 a M00_AXI_WDATA [31:0] $end
+$var reg 4 #" M00_AXI_WSTRB [3:0] $end
+$var reg 1 '" M00_AXI_RVALID $end
+$var reg 3 (" M00_AXI_ARPROT [2:0] $end
+$var reg 3 +" M00_AXI_AWPROT [2:0] $end
 $var reg 1 ." _TRIGGER $end
 $var reg 1 /" _WINDOW $end
 $var reg 1 0" _GAP $end
