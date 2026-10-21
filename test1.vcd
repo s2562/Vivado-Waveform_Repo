@@ -1,0 +1,264 @@
+$date
+        2026-Oct-21 10:07:54
+$end
+$version
+        Vivado v2024.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WREADY $end
+$var reg 40 # u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWADDR [39:0] $end
+$var reg 2 K u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BRESP [1:0] $end
+$var reg 1 M u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BVALID $end
+$var reg 1 N u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BREADY $end
+$var reg 40 O u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARADDR [39:0] $end
+$var reg 1 w u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RREADY $end
+$var reg 1 x u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WVALID $end
+$var reg 1 y u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARVALID $end
+$var reg 1 z u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARREADY $end
+$var reg 128 { u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RDATA [127:0] $end
+$var reg 1 ?# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWVALID $end
+$var reg 1 @# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWREADY $end
+$var reg 2 A# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RRESP [1:0] $end
+$var reg 128 C# u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WDATA [127:0] $end
+$var reg 16 e$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WSTRB [15:0] $end
+$var reg 1 u$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RVALID $end
+$var reg 3 v$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARPROT [2:0] $end
+$var reg 3 y$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWPROT [2:0] $end
+$var reg 16 |$ u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWID [15:0] $end
+$var reg 16 .% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_BID [15:0] $end
+$var reg 8 >% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWLEN [7:0] $end
+$var reg 1 F% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_1 $end
+$var reg 3 G% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWSIZE [2:0] $end
+$var reg 2 J% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWBURST [1:0] $end
+$var reg 16 L% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARID [15:0] $end
+$var reg 1 \% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWLOCK $end
+$var reg 8 ]% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARLEN [7:0] $end
+$var reg 3 e% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARSIZE [2:0] $end
+$var reg 2 h% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARBURST [1:0] $end
+$var reg 1 j% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARLOCK $end
+$var reg 4 k% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARCACHE [3:0] $end
+$var reg 4 o% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWCACHE [3:0] $end
+$var reg 1 s% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_2 $end
+$var reg 1 t% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_3 $end
+$var reg 1 u% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_4 $end
+$var reg 1 v% u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_5 $end
+$var reg 4 w% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARQOS [3:0] $end
+$var reg 16 {% u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARUSER [15:0] $end
+$var reg 1 -& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_6 $end
+$var reg 1 .& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_7 $end
+$var reg 1 /& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_8 $end
+$var reg 1 0& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_9 $end
+$var reg 4 1& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWQOS [3:0] $end
+$var reg 16 5& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RID [15:0] $end
+$var reg 16 E& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_AWUSER [15:0] $end
+$var reg 1 U& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_RLAST $end
+$var reg 1 V& u_zcu102_ext_wrapper/zcu102_ext_i/<const0>_10 $end
+$var reg 1 W& u_zcu102_ext_wrapper/zcu102_ext_i/zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_WLAST $end
+$var reg 1 X& u_zcu102_ext_wrapper/zcu102_ext_i/<const0> $end
+$var reg 1 Y& _TRIGGER $end
+$var reg 1 Z& _WINDOW $end
+$var reg 1 [& _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+b1111111111111111111111111111111111111111 #
+b0 K
+0M
+0N
+b1111111111111111111111111111111111111111 O
+0w
+0x
+0y
+1z
+b0 {
+0?#
+1@#
+b0 A#
+b11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 C#
+b1111111111111111 e$
+0u$
+b111 v$
+b111 y$
+b1111111111111111 |$
+b0 .%
+b11111111 >%
+0F%
+b111 G%
+b11 J%
+b1111111111111111 L%
+1\%
+b11111111 ]%
+b111 e%
+b11 h%
+1j%
+b1111 k%
+b1111 o%
+0s%
+0t%
+0u%
+0v%
+b1111 w%
+b1111111111111111 {%
+0-&
+0.&
+0/&
+00&
+b1111 1&
+b0 5&
+b1111111111111111 E&
+1U&
+0V&
+1W&
+0X&
+1Y&
+1Z&
+0[&
+$end
+#1
+b10100000000000000000000001000000 #
+1N
+b110110001100000110000001100000000 O
+1w
+1?#
+b101100110000011100000000001000000100000000100000000001001111100010001100001000101000010100000011010001000010110000000010010000 C#
+b1110000000000000 e$
+b0 v$
+b1 y$
+b110001101 |$
+b0 >%
+b10 G%
+b1 J%
+b101100000 L%
+0\%
+b0 ]%
+b1 e%
+b10 h%
+0j%
+b1 k%
+b0 o%
+b0 w%
+b10010000 {%
+b0 1&
+b10001100 E&
+0W&
+#2
+1x
+0?#
+0@#
+b1010000100111001101001000011000100001001011011001000100000000011011000101100110111001100000100000000000000000000000000000001010 C#
+b1111 e$
+1W&
+#5
+1"
+#6
+0"
+1M
+0x
+b110001101 .%
+#7
+b10100000000000000000000100000000 #
+0M
+1?#
+1@#
+#8
+b10100000000000000000000100010000 #
+1x
+0@#
+b1010000100111001101001000011000100001001011011001000100000000011011000101100110111001100000100000000000000000000000000000000000 C#
+#11
+1"
+#12
+0"
+b1010000100111001101001000011000100001001011011001000100000000011011000101100110111001100000100000000000000000000000000010101010 C#
+#17
+1M
+#18
+0M
+#19
+1@#
+#20
+b10100000000000000000000100100000 #
+0@#
+#23
+1"
+#24
+0"
+b1010000100111001101001000011000100001001011011001000100000000011011000101100110111001100000100000000000000000000000000000001111 C#
+#29
+1M
+#30
+0M
+#31
+1@#
+#32
+b10100000000000000000000100000000 #
+0@#
+#35
+1"
+#36
+0"
+b1010000100111001101001000011000100001001011011001000100000000011011000101100110111001100000100000000000000000000000000000000001 C#
+#41
+1M
+#42
+0M
+#43
+1@#
+#44
+0?#
+0@#
+#47
+1"
+#48
+0"
+1M
+0x
+#49
+0M
+b10100000000000000000000100000000 O
+1y
+1@#
+b1 v$
+b1101 L%
+b10 e%
+b1 h%
+b0 k%
+b10000000 {%
+#50
+b10100000000000000000000100010000 O
+b1101 5&
+#51
+b10100000000000000000000100000100 O
+#52
+b10100000000000000000000000100000 O
+#53
+b10100000000000000000000000100000 #
+0y
+1?#
+#54
+1x
+0?#
+0@#
+b1010000100111001101001000011000100001001011011001000100000000011011000101100110111001100000100000000000000000000000000011010000 C#
+#57
+1"
+#58
+0"
+1M
+0x
+#59
+0M
+b10100000000000000000000100000100 O
+1y
+1@#
+#60
+b10100000000000000000000000100000 O
+#61
+b10100000000000000000000100000100 O
+#62
+b10100000000000000000000100001100 O
